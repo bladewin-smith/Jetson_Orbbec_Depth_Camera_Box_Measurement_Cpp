@@ -4,7 +4,7 @@
 
 本包适合在 Python 快速验证版已经调通 ROI、地面深度、阈值范围之后，用 C++ 原生 SDK 链路进一步提升应用效果和部署稳定性。
 
-Python 快速验证版仓库/目录链接：[../box_measurement_pyorbbecsdk2](../box_measurement_pyorbbecsdk2)
+Python 快速验证版仓库/目录链接：[Python](https://github.com/bladewin-smith/Jetson_Orbbec_Depth_Camera_Box_Measurement_Python.git)
 
 ## 包特点
 
@@ -22,8 +22,10 @@ Python 快速验证版仓库/目录链接：[../box_measurement_pyorbbecsdk2](..
 | Python 快速验证版 | 快速验证、现场调参、离线诊断 | 中值滤波 + 深度阈值分割 | 开发快、排错快、便于保存样本 | 方案验证 |
 | C++ Enhanced Depth 版 | SDK 原生部署、效果增强 | `ob::EnhancedDepthFilter` 蚂蚁灵波模型 + 测量算法 | 深度更稳定、边缘更完整、适合落地 | 工程优化 |
 
+Python result
 ![Python](pictures/python_version.png)
 
+C++ result
 ![C++](pictures/c++_version.png)
 
 ## 运行前提
