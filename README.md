@@ -41,7 +41,7 @@ Python 快速验证版仓库/目录链接：[../box_measurement_pyorbbecsdk2](..
 推荐在 Jetson 上执行：
 
 ```bash
-cp -r ~/ws/box_measurement_cpp_enhanced_depth ~/ws/OrbbecSDK_v2/examples/
+cp -r ~/ws/Jetson_Orbbec_Depth_Camera_Box_Measurement_Cpp ~/ws/OrbbecSDK_v2/examples/
 echo 'add_subdirectory(box_measurement_cpp_enhanced_depth)' >> ~/ws/OrbbecSDK_v2/examples/CMakeLists.txt
 cd ~/ws/OrbbecSDK_v2
 cmake -S . -B build -DBUILD_EXAMPLES=ON
@@ -51,7 +51,7 @@ cmake --build build --target box_measure_enhanced -j4
 ## 构建方式二：独立构建
 
 ```bash
-cd ~/ws/box_measurement_cpp_enhanced_depth
+cd ~/ws/Jetson_Orbbec_Depth_Camera_Box_Measurement_Cpp
 rm -rf build
 cmake -S . -B build -DOrbbecSDK_ROOT=$HOME/ws/OrbbecSDK_v2
 cmake --build build -j4
@@ -92,7 +92,7 @@ ls $HOME/ws/OrbbecSDK_v2/build/src/generated/Export.h
 
 ```bash
 ./build/box_measure_enhanced \
-  --model /path/to/model.onnx \
+  --model /path/to/model.sm4 \
   --roi 190,100,280,240 \
   --ground-depth 0.699
 ```
