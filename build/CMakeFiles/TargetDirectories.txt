@@ -1,0 +1,7 @@
+/home/r/ws/box_measurement_cpp_enhanced_depth/build/CMakeFiles/box_measure_enhanced.dir
+/home/r/ws/box_measurement_cpp_enhanced_depth/build/CMakeFiles/edit_cache.dir
+/home/r/ws/box_measurement_cpp_enhanced_depth/build/CMakeFiles/rebuild_cache.dir
+/home/r/ws/box_measurement_cpp_enhanced_depth/build/CMakeFiles/list_install_components.dir
+/home/r/ws/box_measurement_cpp_enhanced_depth/build/CMakeFiles/install.dir
+/home/r/ws/box_measurement_cpp_enhanced_depth/build/CMakeFiles/install/local.dir
+/home/r/ws/box_measurement_cpp_enhanced_depth/build/CMakeFiles/install/strip.dir

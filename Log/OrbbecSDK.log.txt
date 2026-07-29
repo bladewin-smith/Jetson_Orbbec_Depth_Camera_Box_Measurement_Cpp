@@ -1,0 +1,337 @@
+[07/29 14:58:26.995732][info][13684][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[07/29 14:58:27.200492][info][13684][LinuxUsbPal.cpp:334] Create PollingDeviceWatcher!
+[07/29 14:58:27.200548][info][13684][DeviceManager.cpp:25] Current found device(s): (1)
+[07/29 14:58:27.200553][info][13684][DeviceManager.cpp:33] 	- Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N, Connection: USB3.2
+[07/29 14:58:27.200558][info][13684][DeviceManager.cpp:463] Enable net device enumeration: true
+[07/29 14:58:28.204998][info][13684][DeviceManager.cpp:25] Current device(s) list: (1)
+[07/29 14:58:28.205035][info][13684][DeviceManager.cpp:33] 	- Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N, Connection: USB3.2
+[07/29 14:58:28.209828][info][13684][G330Device.cpp:630] UVCAutoRebootOnFault=true for device: Gemini 335L
+[07/29 14:58:28.217758][info][13684][DeviceBase.cpp:742] key: AppSlot,value:1
+[07/29 14:58:28.217765][info][13684][DeviceBase.cpp:742] key: HwType,value:L2
+[07/29 14:58:28.217766][info][13684][DeviceBase.cpp:742] key: HwVer,value:V1.0
+[07/29 14:58:28.217768][info][13684][DeviceBase.cpp:742] key: IspFwVer,value:20260620
+[07/29 14:58:28.217769][info][13684][DeviceBase.cpp:742] key: IspNeedVer,value:20250930
+[07/29 14:58:28.217771][info][13684][DeviceBase.cpp:742] key: PresetVer,value:3.0.7
+[07/29 14:58:28.416073][warning][13684][PropertyServer.cpp:55] [CP3L44P0001N] Property not found to register callback, propertyId: 277
+[07/29 14:58:28.417069][warning][13684][PropertyConfigHandler.hpp:53] Unsupported property '223', skipping getting, return nullvalue
+[07/29 14:58:28.486824][warning][13684][PropertyConfigHandler.hpp:94] Exporting property '190' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:58:28.501245][warning][13684][PresetHandler.cpp:336] Exporting ROI property '1061' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:58:28.507218][warning][13684][PresetHandler.cpp:710] Exporting disparity search properties while stream is not active; the values may differ from what will be applied after streaming starts
+[07/29 14:58:28.669332][warning][13684][PropertyConfigHandler.hpp:94] Exporting property '189' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:58:28.682106][warning][13684][PropertyConfigHandler.hpp:53] Unsupported property '277', skipping getting, return nullvalue
+[07/29 14:58:28.685128][warning][13684][PresetHandler.cpp:336] Exporting ROI property '1060' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:58:28.685717][info][13684][DeviceManager.cpp:199] Device created successfully! Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N FW: 1.8.10
+[07/29 14:58:28.685794][info][13684][Pipeline.cpp:54] [CP3L44P0001N] Pipeline created with device: {name: Gemini 335L, sn: CP3L44P0001N}, @0xAAAAB96F19E0
+[07/29 14:58:28.744055][warning][13684][ObException.cpp:31] A unrecoverable_exception has occurred!
+ - where: PrivFilterCppWrapper.cpp(89)
+ - msg: enhanced depth filter inference model file not found: /home/r/ws/OrbbecSDK_v2/build/linux_arm64/lib/extensions/filters/enhanced_depth_filter/model.sm4
+ - type: IO
+ - status: 115
+[07/29 14:58:28.744385][info][13684][Pipeline.cpp:65] [CP3L44P0001N] Pipeline destroyed! @0xAAAAB96F19E0
+[07/29 14:58:28.744757][info][13684][SensorBase.cpp:53] [CP3L44P0001N] SensorBase is destroyed
+[07/29 14:58:28.763418][info][13684][ObLibuvcDevicePort.cpp:87] uvc_close done.
+[07/29 14:58:28.763426][info][13684][ObLibuvcDevicePort.cpp:88] ~ObLibuvcDevicePort done
+[07/29 14:58:28.763647][info][13684][SensorBase.cpp:53] [CP3L44P0001N] SensorBase is destroyed
+[07/29 14:58:28.787606][info][13684][ObLibuvcDevicePort.cpp:87] uvc_close done.
+[07/29 14:58:28.787623][info][13684][ObLibuvcDevicePort.cpp:88] ~ObLibuvcDevicePort done
+[07/29 14:59:53.868239][info][13775][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[07/29 14:59:54.072886][info][13775][LinuxUsbPal.cpp:334] Create PollingDeviceWatcher!
+[07/29 14:59:54.072940][info][13775][DeviceManager.cpp:25] Current found device(s): (1)
+[07/29 14:59:54.072946][info][13775][DeviceManager.cpp:33] 	- Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N, Connection: USB3.2
+[07/29 14:59:54.072952][info][13775][DeviceManager.cpp:463] Enable net device enumeration: true
+[07/29 14:59:55.075687][info][13775][DeviceManager.cpp:25] Current device(s) list: (1)
+[07/29 14:59:55.075724][info][13775][DeviceManager.cpp:33] 	- Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N, Connection: USB3.2
+[07/29 14:59:55.083243][info][13775][G330Device.cpp:630] UVCAutoRebootOnFault=true for device: Gemini 335L
+[07/29 14:59:55.091348][info][13775][DeviceBase.cpp:742] key: AppSlot,value:1
+[07/29 14:59:55.091357][info][13775][DeviceBase.cpp:742] key: HwType,value:L2
+[07/29 14:59:55.091358][info][13775][DeviceBase.cpp:742] key: HwVer,value:V1.0
+[07/29 14:59:55.091359][info][13775][DeviceBase.cpp:742] key: IspFwVer,value:20260620
+[07/29 14:59:55.091361][info][13775][DeviceBase.cpp:742] key: IspNeedVer,value:20250930
+[07/29 14:59:55.091362][info][13775][DeviceBase.cpp:742] key: PresetVer,value:3.0.7
+[07/29 14:59:55.290052][warning][13775][PropertyServer.cpp:55] [CP3L44P0001N] Property not found to register callback, propertyId: 277
+[07/29 14:59:55.290972][warning][13775][PropertyConfigHandler.hpp:53] Unsupported property '223', skipping getting, return nullvalue
+[07/29 14:59:55.373540][warning][13775][PropertyConfigHandler.hpp:94] Exporting property '190' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:59:55.387842][warning][13775][PresetHandler.cpp:336] Exporting ROI property '1061' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:59:55.393834][warning][13775][PresetHandler.cpp:710] Exporting disparity search properties while stream is not active; the values may differ from what will be applied after streaming starts
+[07/29 14:59:55.568369][warning][13775][PropertyConfigHandler.hpp:94] Exporting property '189' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:59:55.581426][warning][13775][PropertyConfigHandler.hpp:53] Unsupported property '277', skipping getting, return nullvalue
+[07/29 14:59:55.584501][warning][13775][PresetHandler.cpp:336] Exporting ROI property '1060' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 14:59:55.585209][info][13775][DeviceManager.cpp:199] Device created successfully! Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N FW: 1.8.10
+[07/29 14:59:55.585292][info][13775][Pipeline.cpp:54] [CP3L44P0001N] Pipeline created with device: {name: Gemini 335L, sn: CP3L44P0001N}, @0xAAAB0A0ADA60
+[07/29 14:59:57.376649][info][13775][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor rgb: mode=INPUT, shape=(-1, -1, 3), dtype=UINT8
+[07/29 14:59:57.376680][info][13775][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor dep: mode=INPUT, shape=(1, 1, -1, -1), dtype=FLOAT
+[07/29 14:59:57.376686][info][13775][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor pred: mode=OUTPUT, shape=(1, 1, 480, 640), dtype=FLOAT
+[07/29 14:59:57.376690][info][13775][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor confidence_output: mode=OUTPUT, shape=(1, 1, 480, 640), dtype=FLOAT
+[07/29 14:59:57.376751][info][13775][EngineInferEncry.cpp:1096] [EnhanceDepth] Selected TensorRT optimization profile 0 for rgb=(480, 640, 3), depth=(1, 1, 480, 640)
+[07/29 14:59:57.383833][info][13775][EngineInferEncry.cpp:876] [EnhanceDepth] Configured dynamic TensorRT profile=0, rgb=(480, 640, 3), depth=(1, 1, 480, 640), pred=(1, 1, 480, 640), conf=(1, 1, 480, 640)
+[07/29 14:59:57.783983][info][13775][EngineInferEncry.cpp:1096] [EnhanceDepth] Selected TensorRT optimization profile 0 for rgb=(480, 640, 3), depth=(1, 1, 480, 640)
+[07/29 14:59:57.787581][info][13775][EngineInferEncry.cpp:876] [EnhanceDepth] Configured dynamic TensorRT profile=0, rgb=(480, 640, 3), depth=(1, 1, 480, 640), pred=(1, 1, 480, 640), conf=(1, 1, 480, 640)
+[07/29 14:59:57.990305][info][13775][Pipeline.cpp:228] [CP3L44P0001N] Check and set config done!
+[07/29 14:59:57.991777][info][13775][Pipeline.cpp:266] [CP3L44P0001N] Try to start streams!
+[07/29 14:59:57.991800][info][13775][VideoSensor.cpp:61] [CP3L44P0001N] Try to start stream: {type: Color, format: RGB, width: 640, height: 480, fps: 90}
+[07/29 14:59:57.991822][info][13775][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPED to STARTING@Color
+[07/29 14:59:57.991834][info][13775][VideoSensor.cpp:130] [CP3L44P0001N] Start backend stream: {type: Color, format: YUYV, width: 640, height: 480, fps: 90}
+[07/29 14:59:57.996240][info][13775][VideoSensor.cpp:61] [CP3L44P0001N] Try to start stream: {type: Depth, format: Y16, width: 640, height: 480, fps: 90}
+[07/29 14:59:57.996264][info][13775][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPED to STARTING@Depth
+[07/29 14:59:57.996278][info][13775][VideoSensor.cpp:130] [CP3L44P0001N] Start backend stream: {type: Depth, format: Z16, width: 640, height: 480, fps: 90}
+[07/29 14:59:58.000789][info][13775][Pipeline.cpp:293] [CP3L44P0001N] Start streams done!
+[07/29 14:59:58.000812][info][13775][Pipeline.cpp:250] [CP3L44P0001N] Pipeline start done!
+[07/29 14:59:58.038616][info][13801][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STARTING to STREAMING@Depth
+[07/29 14:59:58.452217][info][13799][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STARTING to STREAMING@Color
+[07/29 14:59:58.575515][warning][13806][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset!
+[07/29 15:00:01.579878][warning][13806][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**244 logs in 3004ms**]
+[07/29 15:00:03.046852][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=90.055916fps
+[07/29 15:00:03.048044][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=90.181969fps
+[07/29 15:00:03.460413][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=90.055916fps
+[07/29 15:00:03.461051][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=90.091888fps
+[07/29 15:00:07.590610][warning][13806][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**481 logs in 6010ms**]
+[07/29 15:00:08.055780][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:08.058757][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.820358fps
+[07/29 15:00:08.469401][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:08.470064][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:00:13.064729][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:13.067412][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:00:13.478327][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:13.478942][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:00:18.073622][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:18.076277][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:00:18.487353][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:00:18.487983][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:00:19.602543][warning][13838][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**964 logs in 12011ms, last: 15:00:19.590479**]
+[07/29 15:00:23.082453][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:00:23.085104][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:00:23.496199][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:23.497651][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.820358fps
+[07/29 15:00:28.091384][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:28.092575][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.874176fps
+[07/29 15:00:28.505275][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:28.505967][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:00:33.100359][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:33.101560][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:00:33.514183][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:33.515653][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:00:38.109395][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:38.110556][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:00:38.523095][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:38.524461][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:00:43.118305][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:43.119535][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:00:43.531908][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:00:43.532593][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:00:43.610610][warning][13803][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**1928 logs in 24008ms**]
+[07/29 15:00:48.127111][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:00:48.128220][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:00:48.540848][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:48.541456][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:00:53.136086][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:53.137300][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:00:53.549778][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:53.550400][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:00:58.145139][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:00:58.148252][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.802429fps
+[07/29 15:00:58.558869][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:00:58.560285][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.820358fps
+[07/29 15:01:03.153939][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:03.155752][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:01:03.567795][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:03.568468][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:01:08.162859][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:01:08.163964][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:01:08.576592][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:01:08.577228][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:01:13.171768][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:13.173141][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:01:13.585641][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:13.586685][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:01:18.180713][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:18.181926][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:01:18.594490][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:18.595171][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:01:23.189673][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:23.192029][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.820358fps
+[07/29 15:01:23.603364][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:23.604124][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:01:28.198539][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:28.201273][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:01:28.612291][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:01:28.614033][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.820358fps
+[07/29 15:01:31.619052][warning][13806][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**3876 logs in 48008ms**]
+[07/29 15:01:33.207455][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:01:33.208623][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:01:33.621206][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:33.621966][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:01:38.216392][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:38.217541][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:01:38.630178][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:38.630846][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:01:43.225401][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:43.226681][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:01:43.639051][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:43.639664][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:01:48.234369][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:48.235530][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:01:48.648040][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:01:48.649457][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.820358fps
+[07/29 15:01:53.243175][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:01:53.244520][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:01:53.657053][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:53.658513][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:01:58.252280][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:01:58.254851][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.820358fps
+[07/29 15:01:58.665879][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:01:58.666567][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:02:03.261037][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:03.262172][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.874176fps
+[07/29 15:02:03.674834][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:03.675549][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:02:08.269939][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:08.271072][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:02:08.683700][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:08.684342][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:02:13.279020][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:13.281802][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.802429fps
+[07/29 15:02:13.692769][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:02:13.694234][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.820358fps
+[07/29 15:02:18.287815][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:02:18.290510][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:02:18.701533][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:18.702154][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:02:23.296704][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:23.297954][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.874176fps
+[07/29 15:02:23.710478][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:23.711123][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:02:28.305618][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:28.306716][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:02:28.719528][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:28.721051][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:02:31.625906][warning][13806][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**4851 logs in 60006ms**]
+[07/29 15:02:33.314583][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:33.315726][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:02:33.728354][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:02:33.729176][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:02:38.323660][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:38.324890][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:02:38.737306][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:38.737994][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:02:43.332493][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:02:43.333954][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:02:43.746156][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:43.746777][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:02:48.341309][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:48.342450][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:02:48.755077][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:02:48.755713][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:02:53.350424][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:53.353100][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.802429fps
+[07/29 15:02:53.765452][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.820358fps
+[07/29 15:02:53.766095][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.802429fps
+[07/29 15:02:58.359184][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:02:58.361871][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:02:58.772932][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.874176fps
+[07/29 15:02:58.773573][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.874176fps
+[07/29 15:03:03.368005][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:03:03.369115][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.874176fps
+[07/29 15:03:03.781840][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:03:03.782470][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:03:08.377023][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:03:08.378208][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:03:08.790888][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:03:08.791549][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:03:13.385952][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:03:13.387323][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.838295fps
+[07/29 15:03:13.799723][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:03:13.800362][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.856232fps
+[07/29 15:03:18.394921][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.838295fps
+[07/29 15:03:18.396816][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.820358fps
+[07/29 15:03:18.808812][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:03:18.809711][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.820358fps
+[07/29 15:03:23.403705][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.856232fps
+[07/29 15:03:23.404861][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.856232fps
+[07/29 15:03:23.817654][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.856232fps
+[07/29 15:03:23.819175][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:03:28.413454][info][13801][VideoSensor.cpp:180] [CP3L44P0001N] Depth backend frame callback, frameRate=89.820358fps
+[07/29 15:03:28.415101][info][13803][SensorBase.cpp:405] [CP3L44P0001N] Depth Streaming... frameRate=89.820358fps
+[07/29 15:03:28.826602][info][13799][VideoSensor.cpp:180] [CP3L44P0001N] Color backend frame callback, frameRate=89.838295fps
+[07/29 15:03:28.828051][info][13806][SensorBase.cpp:405] [CP3L44P0001N] Color Streaming... frameRate=89.838295fps
+[07/29 15:03:31.457802][info][13775][Pipeline.cpp:367] [CP3L44P0001N] Try to stop pipeline!
+[07/29 15:03:31.457829][info][13775][Pipeline.cpp:343] [CP3L44P0001N] Try to stop streams!
+[07/29 15:03:31.457854][info][13775][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STREAMING to STOPPING@Depth
+[07/29 15:03:31.472258][info][13775][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPING to STOPPED@Depth
+[07/29 15:03:31.472387][info][13775][Pipeline.cpp:357] [CP3L44P0001N] Sensor stream stopped, sensorType=Depth
+[07/29 15:03:31.472400][info][13775][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STREAMING to STOPPING@Color
+[07/29 15:03:31.497140][info][13775][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPING to STOPPED@Color
+[07/29 15:03:31.497354][info][13775][Pipeline.cpp:357] [CP3L44P0001N] Sensor stream stopped, sensorType=Color
+[07/29 15:03:31.497357][info][13775][Pipeline.cpp:363] [CP3L44P0001N] Stop streams done!
+[07/29 15:03:31.498760][info][13775][Pipeline.cpp:393] [CP3L44P0001N] Stop pipeline done!
+[07/29 15:03:31.556122][info][13775][Pipeline.cpp:65] [CP3L44P0001N] Pipeline destroyed! @0xAAAB0A0ADA60
+[07/29 15:03:31.556464][info][13775][SensorBase.cpp:53] [CP3L44P0001N] SensorBase is destroyed
+[07/29 15:03:31.567819][info][13775][ObLibuvcDevicePort.cpp:87] uvc_close done.
+[07/29 15:03:31.567830][info][13775][ObLibuvcDevicePort.cpp:88] ~ObLibuvcDevicePort done
+[07/29 15:03:31.567980][info][13775][SensorBase.cpp:53] [CP3L44P0001N] SensorBase is destroyed
+[07/29 15:03:31.584721][info][13775][ObLibuvcDevicePort.cpp:87] uvc_close done.
+[07/29 15:03:31.584734][info][13775][ObLibuvcDevicePort.cpp:88] ~ObLibuvcDevicePort done
+[07/29 15:03:31.638335][warning][14262][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**4845 logs in 60012ms, last: 15:03:31.457274**]
+[07/29 15:05:02.499604][info][14625][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[07/29 15:05:02.700390][info][14625][LinuxUsbPal.cpp:334] Create PollingDeviceWatcher!
+[07/29 15:05:02.700452][info][14625][DeviceManager.cpp:25] Current found device(s): (1)
+[07/29 15:05:02.700458][info][14625][DeviceManager.cpp:33] 	- Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N, Connection: USB3.2
+[07/29 15:05:02.700463][info][14625][DeviceManager.cpp:463] Enable net device enumeration: true
+[07/29 15:05:03.711734][info][14625][DeviceManager.cpp:25] Current device(s) list: (1)
+[07/29 15:05:03.711778][info][14625][DeviceManager.cpp:33] 	- Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N, Connection: USB3.2
+[07/29 15:05:03.717154][info][14625][G330Device.cpp:630] UVCAutoRebootOnFault=true for device: Gemini 335L
+[07/29 15:05:03.725301][info][14625][DeviceBase.cpp:742] key: AppSlot,value:1
+[07/29 15:05:03.725309][info][14625][DeviceBase.cpp:742] key: HwType,value:L2
+[07/29 15:05:03.725311][info][14625][DeviceBase.cpp:742] key: HwVer,value:V1.0
+[07/29 15:05:03.725312][info][14625][DeviceBase.cpp:742] key: IspFwVer,value:20260620
+[07/29 15:05:03.725314][info][14625][DeviceBase.cpp:742] key: IspNeedVer,value:20250930
+[07/29 15:05:03.725316][info][14625][DeviceBase.cpp:742] key: PresetVer,value:3.0.7
+[07/29 15:05:03.924154][warning][14625][PropertyServer.cpp:55] [CP3L44P0001N] Property not found to register callback, propertyId: 277
+[07/29 15:05:03.924949][warning][14625][PropertyConfigHandler.hpp:53] Unsupported property '223', skipping getting, return nullvalue
+[07/29 15:05:03.999260][warning][14625][PropertyConfigHandler.hpp:94] Exporting property '190' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 15:05:04.013526][warning][14625][PresetHandler.cpp:336] Exporting ROI property '1061' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 15:05:04.019525][warning][14625][PresetHandler.cpp:710] Exporting disparity search properties while stream is not active; the values may differ from what will be applied after streaming starts
+[07/29 15:05:04.186757][warning][14625][PropertyConfigHandler.hpp:94] Exporting property '189' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 15:05:04.199630][warning][14625][PropertyConfigHandler.hpp:53] Unsupported property '277', skipping getting, return nullvalue
+[07/29 15:05:04.202662][warning][14625][PresetHandler.cpp:336] Exporting ROI property '1060' while stream is not active; the value may differ from what will be applied after streaming starts
+[07/29 15:05:04.203193][info][14625][DeviceManager.cpp:199] Device created successfully! Name: Gemini 335L, PID: 0x0804, SN/ID: CP3L44P0001N FW: 1.8.10
+[07/29 15:05:04.203266][info][14625][Pipeline.cpp:54] [CP3L44P0001N] Pipeline created with device: {name: Gemini 335L, sn: CP3L44P0001N}, @0xAAAAFE7D5A40
+[07/29 15:05:05.963294][info][14625][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor rgb: mode=INPUT, shape=(-1, -1, 3), dtype=UINT8
+[07/29 15:05:05.963324][info][14625][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor dep: mode=INPUT, shape=(1, 1, -1, -1), dtype=FLOAT
+[07/29 15:05:05.963330][info][14625][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor pred: mode=OUTPUT, shape=(1, 1, 480, 640), dtype=FLOAT
+[07/29 15:05:05.963334][info][14625][EngineInferEncry.cpp:1038] [EnhanceDepth] TEST Tensor confidence_output: mode=OUTPUT, shape=(1, 1, 480, 640), dtype=FLOAT
+[07/29 15:05:05.963398][info][14625][EngineInferEncry.cpp:1096] [EnhanceDepth] Selected TensorRT optimization profile 0 for rgb=(480, 640, 3), depth=(1, 1, 480, 640)
+[07/29 15:05:05.970693][info][14625][EngineInferEncry.cpp:876] [EnhanceDepth] Configured dynamic TensorRT profile=0, rgb=(480, 640, 3), depth=(1, 1, 480, 640), pred=(1, 1, 480, 640), conf=(1, 1, 480, 640)
+[07/29 15:05:06.355421][info][14625][EngineInferEncry.cpp:1096] [EnhanceDepth] Selected TensorRT optimization profile 0 for rgb=(480, 640, 3), depth=(1, 1, 480, 640)
+[07/29 15:05:06.359022][info][14625][EngineInferEncry.cpp:876] [EnhanceDepth] Configured dynamic TensorRT profile=0, rgb=(480, 640, 3), depth=(1, 1, 480, 640), pred=(1, 1, 480, 640), conf=(1, 1, 480, 640)
+[07/29 15:05:06.558603][info][14625][Pipeline.cpp:228] [CP3L44P0001N] Check and set config done!
+[07/29 15:05:06.560073][info][14625][Pipeline.cpp:266] [CP3L44P0001N] Try to start streams!
+[07/29 15:05:06.560095][info][14625][VideoSensor.cpp:61] [CP3L44P0001N] Try to start stream: {type: Color, format: RGB, width: 640, height: 480, fps: 90}
+[07/29 15:05:06.560117][info][14625][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPED to STARTING@Color
+[07/29 15:05:06.560129][info][14625][VideoSensor.cpp:130] [CP3L44P0001N] Start backend stream: {type: Color, format: YUYV, width: 640, height: 480, fps: 90}
+[07/29 15:05:06.564237][info][14625][VideoSensor.cpp:61] [CP3L44P0001N] Try to start stream: {type: Depth, format: Y16, width: 640, height: 480, fps: 90}
+[07/29 15:05:06.564258][info][14625][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPED to STARTING@Depth
+[07/29 15:05:06.564270][info][14625][VideoSensor.cpp:130] [CP3L44P0001N] Start backend stream: {type: Depth, format: Z16, width: 640, height: 480, fps: 90}
+[07/29 15:05:06.571498][info][14625][Pipeline.cpp:293] [CP3L44P0001N] Start streams done!
+[07/29 15:05:06.571506][info][14625][Pipeline.cpp:250] [CP3L44P0001N] Pipeline start done!
+[07/29 15:05:06.595653][info][14653][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STARTING to STREAMING@Depth
+[07/29 15:05:07.021099][info][14651][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STARTING to STREAMING@Color
+[07/29 15:05:07.143434][warning][14658][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset!
+[07/29 15:05:10.148721][warning][14658][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**241 logs in 3005ms**]
+[07/29 15:05:11.590277][info][14625][Pipeline.cpp:367] [CP3L44P0001N] Try to stop pipeline!
+[07/29 15:05:11.590305][info][14625][Pipeline.cpp:343] [CP3L44P0001N] Try to stop streams!
+[07/29 15:05:11.590340][info][14625][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STREAMING to STOPPING@Depth
+[07/29 15:05:11.602836][info][14625][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPING to STOPPED@Depth
+[07/29 15:05:11.603022][info][14625][Pipeline.cpp:357] [CP3L44P0001N] Sensor stream stopped, sensorType=Depth
+[07/29 15:05:11.603035][info][14625][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STREAMING to STOPPING@Color
+[07/29 15:05:11.627480][info][14625][SensorBase.cpp:216] [CP3L44P0001N] Stream state changed from STOPPING to STOPPED@Color
+[07/29 15:05:11.627743][info][14625][Pipeline.cpp:357] [CP3L44P0001N] Sensor stream stopped, sensorType=Color
+[07/29 15:05:11.627746][info][14625][Pipeline.cpp:363] [CP3L44P0001N] Stop streams done!
+[07/29 15:05:11.629217][info][14625][Pipeline.cpp:393] [CP3L44P0001N] Stop pipeline done!
+[07/29 15:05:11.686953][info][14625][Pipeline.cpp:65] [CP3L44P0001N] Pipeline destroyed! @0xAAAAFE7D5A40
+[07/29 15:05:11.687303][info][14625][SensorBase.cpp:53] [CP3L44P0001N] SensorBase is destroyed
+[07/29 15:05:11.698696][info][14625][ObLibuvcDevicePort.cpp:87] uvc_close done.
+[07/29 15:05:11.698708][info][14625][ObLibuvcDevicePort.cpp:88] ~ObLibuvcDevicePort done
+[07/29 15:05:11.698863][info][14625][SensorBase.cpp:53] [CP3L44P0001N] SensorBase is destroyed
+[07/29 15:05:11.716349][info][14625][ObLibuvcDevicePort.cpp:87] uvc_close done.
+[07/29 15:05:11.716361][info][14625][ObLibuvcDevicePort.cpp:88] ~ObLibuvcDevicePort done
+[07/29 15:05:11.719444][warning][14677][Pipeline.cpp:324] [CP3L44P0001N] Output frameset queue is full, drop oldest frameset! [**115 logs in 1570ms, last: 15:05:11.584552**]
